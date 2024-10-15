@@ -12,7 +12,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 600px;    
+    height: 600px;
 }
 
 .card {
@@ -46,7 +46,7 @@ h1 {
 .text-card p {
     font-size: 0.9em;
     padding-bottom: 0.5em;
-    line-height: 1.7em ;
+    line-height: 1.7em;
     color: hsl(217, 19%, 35%);
 }
 
@@ -77,11 +77,14 @@ h2 {
     color: hsl(217, 19%, 35%);
 }
 
-button {
+.btn {
+    background-image: url(./images/icon-share.svg);
+    background-repeat: no-repeat;
+    background-position: center;
     position: relative;
     width: 3em;
     height: 3em;
-    top: 0.9em;
+    top: 1.5em;
     border-radius: 100%;
     border: none;
     background-color: hsl(216, 29%, 83%);
@@ -92,23 +95,17 @@ button {
     background-color: hsl(217, 19%, 35%);
 }
 
-.fa-solid {
-    transform: rotate(-100deg);
-    font-size: 1.25em;
-    color: hsl(217, 19%, 35%);
-    width: 3.125em;
-    height: 3.125em;
-    position: relative;
-    bottom: 0.5em;
-    border-radius: 100%;
-    padding: 0.75em;
-}
-
-.fa-solid:hover {
+div .share {
     color: hsl(216, 29%, 83%);
+    font-size: 1.125em;
+    position: relative;
+    top: 0.5em;
+    right: 2.7em;
+    text-transform: uppercase;
 }
 
 #conteudoBtn {
+    display: none;
     background-color: hsl(217, 19%, 35%);
     width: 15.625em;
     height: 3.75em;
@@ -116,15 +113,17 @@ button {
     left: 15.625em;
     bottom: 3.75em;
     border-radius: 0.625em;
-    padding: 0.625em;
-    position: absolute;    
+    padding: 0.625em 0em 0em 4em;
+    position: absolute;
 }
 
-.share, .facebook, .twitter, .pinterest {
+.facebook,
+.twitter,
+.pinterest {
     font-size: 0.625em;
     position: relative;
     margin-left: 2em;
-    top: 0.313em;
+    bottom: 1.9em;
     cursor: pointer;
 }
 

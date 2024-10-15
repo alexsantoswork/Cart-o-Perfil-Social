@@ -52,7 +52,7 @@
         bottom: -1.875em;
         border-radius: 0em 0em 0.625em 0.625em;
         padding: 0.625em;
-        position: absolute;    
+        position: absolute;  
     }
 
     button {
@@ -66,8 +66,15 @@
         background-color: hsl(211, 11%, 62%);
     }
 
-    .share, .facebook, .twitter, .pinterest {
+    div .share {
+        font-size: 1em;
+        right: -0.625em;
+        top: 1.063em;
+    }
+
+    .facebook, .twitter, .pinterest {
         margin-left: 1.2em;
-        top: 1em;
+        bottom: 1em;
+        left: 6em;
     }
 }

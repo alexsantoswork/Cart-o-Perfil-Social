@@ -1,10 +1,11 @@
 var btnClique = document.getElementById("btnClique");
+var conteudoBtn = document.getElementById("conteudoBtn");
 
-btnClique.addEventListener("click", function() {
-
-    var conteudoBtn = document.getElementById("conteudoBtn");
-
-    conteudoBtn.classList.toggle("hide");
-    
-
-});
+function mostrarDiv() {
+    var div = document.getElementById("conteudoBtn");
+    if (div.style.display === "none") {
+        div.style.display = "block";
+    } else {
+        div.style.display = "none";
+    }
+}    
